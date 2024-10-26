@@ -1,2 +1,9 @@
-# MetaDataStringEditorRussian
-MetaDataStringEditor Русской версии
+#Введение
+Это перевод на русский язык вот этой программы https://github.com/JeremieCHN/MetaDataStringEditor/tree/master, которая была на китайском языке.
+
+#Инструмент частичной модификации строк для global-metadata.dat
+Для Android-игр, экспортируемых из скриптового бэкенда Unity-il2cpp, строки, появляющиеся в коде, будут скомпилированы в файл assets\bin\Data\Managed\Metadata\global-metadata.dat.
+
+#Библиография
+- [il2cppdumper](https://github.com/Perfare/Il2CppDumper)<br>
+Понимание содержимого этого файла можно почерпнуть из исходного кода этого инструмента, который сам используется для экспорта определений классов изнутри скомпилированного файла libil2cpp.so и файла global-metadata.dat, в виде скриптов переименования, доступных для IDA, DLL, доступных для UABE и AssetStudio, и т. д., что является очень полезным инструментом.инструмент.
